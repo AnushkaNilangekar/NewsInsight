@@ -7,7 +7,6 @@ QuickNews is a web app that helps you quickly extract insights and answers from 
 ## How to Use
 
 1. Run the app:  
-   ```bash
    streamlit run app.py
 2. Enter up to 3 news article URLs in the sidebar.
 
@@ -21,14 +20,14 @@ QuickNews is a web app that helps you quickly extract insights and answers from 
 ## Setup
 - Install Python 3.8 or higher.
 - Clone the repository:
-bash
 git clone https://github.com/yourusername/quicknews.git
+
 cd quicknews
 
 - Create and activate a virtual environment (recommended):
 
-bash
 python -m venv venv
+
 source venv/bin/activate   # On Windows use: venv\Scripts\activate
 - Install required packages by running: pip install -r requirements.txt
 - Add your Hugging Face API token in a .env file if you use private models.
