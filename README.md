@@ -17,19 +17,21 @@ QuickNews lets you enter news article URLs and ask questions about their content
 
 5. See the answer and the source article link.
 
-
+---
 
 ## Setup
 - Install Python 3.8 or higher.
 - Install required packages by running: pip install -r requirements.txt
 - Add your Hugging Face API token in a .env file if you use private models.
 
-Notes
-The app works best with clear, public news URLs.
+---
 
-Answers come from the articles you provide.
+## Notes
+- The app works best with clear, public news URLs.
 
-You don’t need a GPU; it works on CPU too.
+- Answers come from the articles you provide.
 
-License
+- You don’t need a GPU; it works on CPU too.
+
+## License
 MIT License
