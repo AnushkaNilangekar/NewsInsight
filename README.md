@@ -1,4 +1,4 @@
-# QuickNews: AI News Research Tool 📈
+# QuickNews: AI News Research Tool
 
 QuickNews is a web app that helps you quickly extract insights and answers from news articles you provide. Using Hugging Face's powerful language models and LangChain, it loads articles from URLs, indexes the content, and lets you ask natural language questions to get fast, sourced, and friendly answers.
 
