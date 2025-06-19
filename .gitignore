@@ -1,9 +1,23 @@
 # Exclude environment variables file
 .env
 
-# Exclude Python virtual environment folder (if you're using one)
+# Exclude Python virtual environment folder
 venv/
 
 # Exclude compiled Python files
 *.pyc
 __pycache__/
+
+# Generated files
+*.pkl
+faiss_store_*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
