@@ -20,6 +20,7 @@ QuickNews is a web app that helps you quickly extract insights and answers from 
 ## Setup
 - Install Python 3.8 or higher.
 - Clone the repository:
+
 git clone https://github.com/yourusername/quicknews.git
 
 cd quicknews
