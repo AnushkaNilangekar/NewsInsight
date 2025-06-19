@@ -17,14 +17,12 @@ QuickNews lets you enter news article URLs and ask questions about their content
 
 5. See the answer and the source article link.
 
----
 
 ## Setup
 - Install Python 3.8 or higher.
 - Install required packages by running: pip install -r requirements.txt
 - Add your Hugging Face API token in a .env file if you use private models.
 
----
 
 ## Notes
 - The app works best with clear, public news URLs.
