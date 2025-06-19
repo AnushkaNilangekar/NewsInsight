@@ -1,6 +1,6 @@
 # QuickNews: AI News Research Tool 📈
 
-QuickNews lets you enter news article URLs and ask questions about their content. It uses AI to read the articles and give you clear answers with sources.
+QuickNews is a web app that helps you quickly extract insights and answers from news articles you provide. Using Hugging Face's powerful language models and LangChain, it loads articles from URLs, indexes the content, and lets you ask natural language questions to get fast, sourced, and friendly answers.
 
 ---
 
@@ -20,6 +20,16 @@ QuickNews lets you enter news article URLs and ask questions about their content
 
 ## Setup
 - Install Python 3.8 or higher.
+- Clone the repository:
+bash
+git clone https://github.com/yourusername/quicknews.git
+cd quicknews
+
+- Create and activate a virtual environment (recommended):
+
+bash
+python -m venv venv
+source venv/bin/activate   # On Windows use: venv\Scripts\activate
 - Install required packages by running: pip install -r requirements.txt
 - Add your Hugging Face API token in a .env file if you use private models.
 
