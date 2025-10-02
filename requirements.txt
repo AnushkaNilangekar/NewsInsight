@@ -1,9 +1,0 @@
-streamlit
-python-dotenv
-langchain
-langchain-community
-transformers
-sentence-transformers
-torch
-faiss-cpu
-unstructured
